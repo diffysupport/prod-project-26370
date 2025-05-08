@@ -51,12 +51,6 @@ basic:
         - fellowships-funding/current-vpge-fellows/all-2022-vpge-fellows
         - fellowships-funding/current-vpge-fellows/all-2021-vpge-fellows
         - fellowships-funding/current-vpge-fellows/all-2020-vpge-fellows
-        - fellowships-funding/current-vpge-fellows/all-2019-vpge-fellows
-        - fellowships-funding/current-vpge-fellows/all-2018-vpge-fellows
-        - fellowships-funding/current-vpge-fellows/all-2017-vpge-fellows
-        - fellowships-funding/current-vpge-fellows/all-2016-vpge-fellows
-        - fellowships-funding/current-vpge-fellows/all-2015-vpge-fellows
-        - fellowships-funding/current-vpge-fellows/all-2014-vpge-fellows
         - fellowships-funding/current-vpge-fellows/graduate-fellowships-faculty-advisory-committee
         - policies-procedures
         - policies-procedures/policies-planning
@@ -106,7 +100,19 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
