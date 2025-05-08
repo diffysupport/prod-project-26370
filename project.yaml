@@ -1,0 +1,115 @@
+basic:
+    name: 'MAINTAIN | VPGE'
+    environments:
+        production: 'https://vpge.stanford.edu/'
+        staging: 'https://vpge-test.sites.stanford.edu/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - guidance-students
+        - guidance-students/stanford-resources
+        - guidance-faculty-staff/advising-mentoring/advising-policies
+        - guidance-faculty-staff/advising-mentoring/advising-expectations
+        - academic-guidance/advising-mentoring/advising-practices-resources
+        - guidance-students/mentoring-resources
+        - guidance-students/problem-solving-crisis-intervention
+        - guidance-students/problem-solving-crisis-intervention/school-deans-office-contacts
+        - guidance-faculty-staff
+        - guidance-faculty-staff/advising-mentoring
+        - guidance-faculty-staff/vpge-fellowship-policies
+        - guidance-faculty-staff/vpge-fellowship-policies/gfs-entry-information
+        - guidance-faculty-staff/graduate-admissions
+        - guidance-faculty-staff/graduate-admissions/graduate-recruitment-faculty-administrator-portal
+        - guidance-faculty-staff/graduate-admissions/directors-graduate-admissions
+        - guidance-faculty-staff/directors-graduate-studies
+        - student-programs
+        - student-programs/programs-funding
+        - professional-development/overview-grad-grow
+        - professional-development/search-grad-grow
+        - student-programs/welcome-grad-grow/six-professional-competencies
+        - student-programs/welcome-grad-grow/campus-partners
+        - student-programs/career-planning
+        - student-programs/3-minute-thesis
+        - student-programs/3-minute-thesis/meet-3mt-finalists
+        - student-programs/3-minute-thesis/3mt-judges
+        - student-programs/3-minute-thesis/3mt-stanford-rules-criteria-guide
+        - student-programs/stanford-graduate-summer-institute-overview
+        - student-programs/stanford-graduate-summer-institute-overview/2025-sgsi-course-overview
+        - fellowships-funding
+        - fellowships-funding/graduate-student-funding
+        - fellowships-funding/graduate-student-funding/other-stanford-fellowships
+        - fellowships-funding/graduate-student-funding/external-funding
+        - fellowships-funding/vpge-fellowships
+        - fellowships-funding/vpge-funding-opportunities
+        - fellowships-funding/current-vpge-fellows
+        - fellowships-funding/current-vpge-fellows/all-2024-fellows
+        - fellowships-funding/current-vpge-fellows/all-2023-fellows
+        - fellowships-funding/current-vpge-fellows/all-2022-vpge-fellows
+        - fellowships-funding/current-vpge-fellows/all-2021-vpge-fellows
+        - fellowships-funding/current-vpge-fellows/all-2020-vpge-fellows
+        - fellowships-funding/current-vpge-fellows/all-2019-vpge-fellows
+        - fellowships-funding/current-vpge-fellows/all-2018-vpge-fellows
+        - fellowships-funding/current-vpge-fellows/all-2017-vpge-fellows
+        - fellowships-funding/current-vpge-fellows/all-2016-vpge-fellows
+        - fellowships-funding/current-vpge-fellows/all-2015-vpge-fellows
+        - fellowships-funding/current-vpge-fellows/all-2014-vpge-fellows
+        - fellowships-funding/current-vpge-fellows/graduate-fellowships-faculty-advisory-committee
+        - policies-procedures
+        - policies-procedures/policies-planning
+        - policies-procedures/research-policies
+        - about-vpge
+        - about-vpge/our-mission
+        - about-vpge/meet-vice-provost
+        - about-vpge/staff
+        - about-vpge/faculty-advisory-committee
+        - about-vpge/student-postdoc-advisory-committee
+        - about-vpge/history-milestones
+        - about-vpge/contact-us
+        - events/workshop
+        - events/lecturepresentationtalk
+        - events/tour
+        - events/meeting
+        - news/awards
+        - news/fellow
+        - news/students
+        - news/research
+        - news/stanford
+        - news/vpge
+        - information-faculty-staff
+        - 'saml/login?destination='
+        - report-website-problem
+        - events
+        - events/programs
+        - news
+        - newsletter
+        - gateways/new-students
+        - gateways/information-faculty-staff
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
